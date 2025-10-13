@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Avalonia.Media.Imaging;
+using System;
 using System.Collections.Generic;
 
 namespace demo2209.Models;
@@ -22,6 +23,8 @@ public partial class Employee
     public int? Position { get; set; }
 
     public string? Imagepath { get; set; }
+
+    public Bitmap Image => new Bitmap(AppDomain.CurrentDomain.BaseDirectory + "/" + Imagepath);
 
     public virtual ICollection<LoginHistory> LoginHistories { get; set; } = new List<LoginHistory>();
 

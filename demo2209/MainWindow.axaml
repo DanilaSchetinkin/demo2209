@@ -2,43 +2,88 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-		x:CompileBindings="False"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
         x:Class="demo2209.MainWindow"
         Title="demo2209">
-	<Grid ShowGridLines="False">
-		<Grid.ColumnDefinitions>
-			<ColumnDefinition Width="280"></ColumnDefinition>
-			<ColumnDefinition></ColumnDefinition>
-			<ColumnDefinition Width="290"></ColumnDefinition>
-		</Grid.ColumnDefinitions>
-		<Grid.RowDefinitions>
-			<RowDefinition Height="100"></RowDefinition>
-			<RowDefinition Height="20"></RowDefinition>
-			<RowDefinition Height="10"></RowDefinition>
-			<RowDefinition Height="20"></RowDefinition>
-			<RowDefinition Height="40"></RowDefinition>
-			<RowDefinition Height="20"></RowDefinition>
-			<RowDefinition Height="40" ></RowDefinition>
-			<RowDefinition Height="40"></RowDefinition>
-			<RowDefinition></RowDefinition>
-			
-		</Grid.RowDefinitions>
-		<TextBlock Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" Text="Авторизация"></TextBlock>
-		<TextBlock Grid.Row="3" Grid.Column="1"  Text="Логин" HorizontalAlignment="Center"></TextBlock>
-		<TextBox x:Name="login" Grid.Row="4" Grid.Column="1"   Width="200" Height="30" HorizontalAlignment="Center" VerticalAlignment="Top" ></TextBox>
-		<TextBlock Grid.Row="5" Grid.Column="1" Text="Пароль" HorizontalAlignment="Center" ></TextBlock>
-		<TextBox x:Name="password" Grid.Row="6" Grid.Column="1"   Width="200" Height="30" HorizontalAlignment="Center" VerticalAlignment="Top" ></TextBox>
-		<Button Click="Button_Click" Grid.Row="7" Grid.Column="1" Width="100" HorizontalAlignment="Center" VerticalAlignment="Top"    >
-			<TextBlock Text="Войти" HorizontalAlignment="Center"></TextBlock>
-		</Button>
+    <Grid ShowGridLines="False">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="280"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="290"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <TextBlock Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" Text="Авторизация"></TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="1" Text="Логин" HorizontalAlignment="Center"></TextBlock>
+        <TextBox x:Name="login" Grid.Row="4" Grid.Column="1" Width="200" Height="30" HorizontalAlignment="Center" VerticalAlignment="Top"></TextBox>
+        <TextBlock Grid.Row="5" Grid.Column="1" Text="Пароль" HorizontalAlignment="Center"></TextBlock>
+        <TextBox x:Name="password" 
+                 PasswordChar="*"
+                 Grid.Row="6" 
+                 Grid.Column="1" 
+                 Width="200" 
+                 Height="30" 
+                 HorizontalAlignment="Center" 
+                 VerticalAlignment="Top"></TextBox>
+        
+        <!-- Капча -->
+        <Border Grid.Row="8" Grid.Column="1" BorderBrush="Gray" BorderThickness="1" Margin="10">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="Соберите пазл:" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                
+                <!-- Контейнер для пазлов -->
+                <Grid Width="300" Height="100" Margin="0,0,0,10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <!-- Пазлы -->
+                    <Border x:Name="Puzzle1" Grid.Column="0" Background="LightBlue" Margin="2"
+                            CornerRadius="10,0,0,10" BorderBrush="DarkBlue" BorderThickness="2">
+                        <TextBlock Text="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
+                    </Border>
+                    
+                    <Border x:Name="Puzzle2" Grid.Column="1" Background="LightGreen" Margin="2"
+                            BorderBrush="DarkGreen" BorderThickness="2">
+                        <TextBlock Text="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
+                    </Border>
+                    
+                    <Border x:Name="Puzzle3" Grid.Column="2" Background="LightYellow" Margin="2"
+                            BorderBrush="DarkGoldenrod" BorderThickness="2">
+                        <TextBlock Text="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
+                    </Border>
+                    
+                    <Border x:Name="Puzzle4" Grid.Column="3" Background="LightCoral" Margin="2"
+                            CornerRadius="0,10,10,0" BorderBrush="DarkRed" BorderThickness="2">
+                        <TextBlock Text="4" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
+                    </Border>
+                </Grid>
+                
+                <TextBlock x:Name="CaptchaHint" Text="Перетащите пазлы в правильном порядке: 1-2-3-4" 
+                          HorizontalAlignment="Center" FontSize="10" Foreground="Gray" TextWrapping="Wrap"/>
+            </StackPanel>
+        </Border>
+        
+        <Button Click="Button_Click" Grid.Row="9" Grid.Column="1" Width="100" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <TextBlock Text="Войти" HorizontalAlignment="Center"></TextBlock>
+        </Button>
 
-		<TextBlock Grid.Row="8" 
-				   Grid.Column="1" 
-				   Foreground="Red"  
-				   x:Name="ErrorBox"
-				   TextWrapping="Wrap"
-				   HorizontalAlignment="Center"></TextBlock>
-		
-	</Grid>
+        <TextBlock Grid.Row="10" Grid.Column="1" Foreground="Red" x:Name="ErrorBox"
+                  TextWrapping="Wrap" HorizontalAlignment="Center"></TextBlock>
+    </Grid>
 </Window>
