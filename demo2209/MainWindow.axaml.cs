@@ -3,6 +3,7 @@ using Avalonia.Controls;
 using Avalonia.Input;
 using Avalonia.Interactivity;
 using demo2209.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
 
@@ -153,6 +154,7 @@ namespace demo2209
             using var context = new DanyaContext();
 
             var user = context.Employees
+                .Include(emp => emp.PositionNavigation)
                 .FirstOrDefault(emp => emp.Login == log && emp.Password == pass);
 
             if (user == null)
@@ -167,7 +169,7 @@ namespace demo2209
 
             string roleName = user.PositionNavigation.RoleName;
 
-            var People = new PeopleWindow(user.Fio,roleName, user.Imagepath);
+            var People = new PeopleWindow(user.Fio,roleName, user.Image);
             People.Show();
             this.Close();
         }
