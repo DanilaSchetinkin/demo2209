@@ -157,17 +157,55 @@ namespace demo2209
                 .Include(emp => emp.PositionNavigation)
                 .FirstOrDefault(emp => emp.Login == log && emp.Password == pass);
 
+            var countId = context.LoginHistories.Count()+1;
+
             if (user == null)
             {
-                ShowError("Неверный логин или пароль");
-                return;
+                var checkUser = context.Employees .FirstOrDefault(emp => emp.Login == log);
+                if(checkUser == null)
+                {
+                    ShowError("Такого пользователя не существует!");
+                    return;
+                }
+                else
+                {
+                    var newEnter = new LoginHistory()
+                    {
+                        Id = countId,
+                        EmployeeId = checkUser.Id,
+                        LoginTime = DateTime.Now,
+                        LoginType = "Не успешно"
+                    };
+
+                    context.LoginHistories.Add(newEnter);
+                    context.SaveChanges();
+
+                    ShowError("Неверный пароль");
+                    return;
+                }
+
             }
+
+
             else
             {
                 ShowError("Успешный вход!", false);
             }
-
+            
+          
             string roleName = user.PositionNavigation.RoleName;
+
+            var newTime = new LoginHistory()
+            {
+                Id = countId,
+                EmployeeId = user.Id,
+                LoginTime = DateTime.Now,
+                LoginType = "Успешно"
+            };
+
+            context.LoginHistories.Add(newTime);
+            context.SaveChanges();
+
 
             var People = new PeopleWindow(user.Fio,roleName, user.Image);
             People.Show();
