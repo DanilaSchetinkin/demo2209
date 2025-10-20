@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\DANILA\\source\\repos\\demo2209\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\demo2209\\demo2209\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\demo2209\\demo2209\\models\\loginhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\models\\loginhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\demo2209\\demo2209\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\demo2209\\demo2209\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\demo2209\\demo2209\\peoplewindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\peoplewindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
@@ -27,16 +11,32 @@
       "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\peoplewindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\demo2209\\demo2209\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\demo2209\\demo2209\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\demo2209\\demo2209\\models\\loginhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\models\\loginhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\demo2209\\demo2209\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\demo2209\\demo2209\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\demo2209\\demo2209\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\demo2209\\demo2209\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\demo2209\\demo2209\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,36 +46,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{73068c07-fba1-453f-99ae-6edf972119b2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "PeopleWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\PeopleWindow.axaml.cs",
               "RelativeDocumentMoniker": "demo2209\\PeopleWindow.axaml.cs",
               "ToolTip": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\PeopleWindow.axaml.cs",
               "RelativeToolTip": "demo2209\\PeopleWindow.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAUwC0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T09:33:16.93Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "demo2209\\MainWindow.axaml.cs",
               "ToolTip": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\MainWindow.axaml.cs",
               "RelativeToolTip": "demo2209\\MainWindow.axaml.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAASwLoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAMgAAAAAAAAAAAASwLkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T09:47:18.586Z",
+              "WhenOpened": "2025-10-09T09:47:18.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PeopleWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\PeopleWindow.axaml",
+              "RelativeDocumentMoniker": "demo2209\\PeopleWindow.axaml",
+              "ToolTip": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\PeopleWindow.axaml*",
+              "RelativeToolTip": "demo2209\\PeopleWindow.axaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-13T09:33:17.102Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
+              "Title": "LoginHistory.cs",
+              "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\Models\\LoginHistory.cs",
+              "RelativeDocumentMoniker": "demo2209\\Models\\LoginHistory.cs",
+              "ToolTip": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\Models\\LoginHistory.cs",
+              "RelativeToolTip": "demo2209\\Models\\LoginHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T09:58:46.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\Models\\Role.cs",
               "RelativeDocumentMoniker": "demo2209\\Models\\Role.cs",
@@ -87,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "demo2209\\Models\\Employee.cs",
@@ -95,19 +122,7 @@
               "RelativeToolTip": "demo2209\\Models\\Employee.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T10:38:54.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PeopleWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\PeopleWindow.axaml",
-              "RelativeDocumentMoniker": "demo2209\\PeopleWindow.axaml",
-              "ToolTip": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\PeopleWindow.axaml",
-              "RelativeToolTip": "demo2209\\PeopleWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-13T09:33:17.102Z"
+              "WhenOpened": "2025-10-13T10:38:54.102Z"
             },
             {
               "$type": "Document",
@@ -118,12 +133,11 @@
               "ToolTip": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\MainWindow.axaml",
               "RelativeToolTip": "demo2209\\MainWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-08T14:12:51.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T14:12:51.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\Program.cs",
               "RelativeDocumentMoniker": "demo2209\\Program.cs",
@@ -135,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "App.axaml",
               "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\App.axaml",
               "RelativeDocumentMoniker": "demo2209\\App.axaml",
@@ -143,40 +157,6 @@
               "RelativeToolTip": "demo2209\\App.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-14T10:36:49.714Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "e478841e-e10e-4719-9d5a-04948b254610",
-        "Display": 0,
-        "X": 1539,
-        "Y": 397,
-        "Width": 738,
-        "Height": 393,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginHistory.cs",
-              "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\Models\\LoginHistory.cs",
-              "RelativeDocumentMoniker": "demo2209\\Models\\LoginHistory.cs",
-              "ToolTip": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\Models\\LoginHistory.cs",
-              "RelativeToolTip": "demo2209\\Models\\LoginHistory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T12:00:17.687Z",
-              "EditorCaption": ""
             }
           ]
         }
