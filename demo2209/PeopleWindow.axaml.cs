@@ -44,6 +44,10 @@ public partial class PeopleWindow : Window
         roleBox.Text = _role;
 
         LoadData();
+
+        LoginComboBox.SelectionChanged += Sort_ComboBox_Login;
+        DateComboBox.SelectionChanged += Sort_ComboBox_Date;
+
     }
 
     private void LoadData()
@@ -60,4 +64,47 @@ public partial class PeopleWindow : Window
 
         EnterBox.ItemsSource = _enters;
     }
+
+    private void Sort_ComboBox_Login(object sender, EventArgs e)
+    {
+        var sorted = _enters.ToList();
+
+        switch (LoginComboBox.SelectedIndex)
+        {
+            case 0:
+                sorted = _enters.OrderBy(s => s.UserLogin).ToList();
+                break;
+            case 1:
+                sorted = _enters.OrderByDescending(s => s.UserLogin).ToList();
+                break;
+            case 2:
+                sorted = _enters.ToList();
+                break;
+        }
+
+        EnterBox.ItemsSource = sorted;
+
+    }
+
+    private void Sort_ComboBox_Date(object sender, EventArgs e)
+    {
+        var sorted = _enters.ToList();
+
+        switch (DateComboBox.SelectedIndex)
+        {
+            case 0:
+                sorted = _enters.OrderBy(s => s.Time).ToList();
+                break;
+            case 1:
+                sorted = _enters.OrderByDescending(s => s.Time).ToList();
+                break;
+                case 2:
+                sorted = _enters.ToList();
+                break;
+        }
+
+        EnterBox.ItemsSource = sorted;
+
+    }
+
 }
