@@ -6,7 +6,9 @@ using Avalonia.Threading;
 using demo2209.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Text.Json;
 using System.Threading;
 
 namespace demo2209;
@@ -21,10 +23,15 @@ public partial class PeopleWindow : Window
     private bool _isWarningShown = false;
     private DateTime _sessionStartTime;
 
-    private const int TOTAL_SESSION_TIME_MINUTES = 10;    
-    private const int WARNING_TIME_MINUTES = 5;           
+    private const int TOTAL_SESSION_TIME_MINUTES = 10;
+    private const int WARNING_TIME_MINUTES = 5;
     private const int BLOCK_TIME_MINUTES = 3;
 
+    // Класс для хранения настроек блокировки
+    private class BlockSettings
+    {
+        public DateTime BlockUntil { get; set; }
+    }
 
     public class Enters
     {
@@ -35,7 +42,6 @@ public partial class PeopleWindow : Window
 
     private List<Enters> _enters;
 
-
     public PeopleWindow()
     {
         InitializeComponent();
@@ -44,7 +50,6 @@ public partial class PeopleWindow : Window
     public PeopleWindow(string fio, string role, Bitmap? image)
     {
         InitializeComponent();
-       
 
         _fio = fio;
         _role = role;
@@ -59,6 +64,7 @@ public partial class PeopleWindow : Window
         LoginComboBox.SelectionChanged += Sort_ComboBox_Login;
         DateComboBox.SelectionChanged += Sort_ComboBox_Date;
 
+        SessionTimer();
     }
 
     private void SessionTimer()
@@ -66,21 +72,19 @@ public partial class PeopleWindow : Window
         _sessionStartTime = DateTime.Now;
         _sessionTimeSeconds = TOTAL_SESSION_TIME_MINUTES * 60;
 
-        _sessionTimer = new Timer(SessiomTimerCallback, null, 0, 1000);
+        _sessionTimer = new Timer(SessionTimerCallback, null, 0, 1000);
     }
 
-    private void SessionTimerCallback(object stater)
+    private void SessionTimerCallback(object state)
     {
         Dispatcher.UIThread.Post(() =>
         {
             _sessionTimeSeconds--;
 
-            
             var minutes = _sessionTimeSeconds / 60;
             var seconds = _sessionTimeSeconds % 60;
             SessionTimerText.Text = $"Время сеанса: {minutes:00}:{seconds:00}";
 
-            
             CheckSessionConditions();
         });
     }
@@ -93,7 +97,6 @@ public partial class PeopleWindow : Window
             _isWarningShown = true;
         }
 
-        
         if (_sessionTimeSeconds <= 0)
         {
             EndSession();
@@ -103,9 +106,8 @@ public partial class PeopleWindow : Window
     private void ShowWarningMessage()
     {
         WarningText.Text = $"ВНИМАНИЕ! Сеанс завершится через {WARNING_TIME_MINUTES} минут!";
-        WarningText.Visibility = Avalonia.Layout.Visibility.Visible;
+        WarningText.IsVisible = true;
 
-        // Можно добавить звуковое оповещение или диалоговое окно
         var dialog = new Window()
         {
             Title = "Предупреждение",
@@ -124,13 +126,9 @@ public partial class PeopleWindow : Window
 
     private async void EndSession()
     {
-        // Останавливаем таймер
         _sessionTimer?.Dispose();
-
-        // Сохраняем информацию о завершении сеанса
         SaveSessionEndInfo();
 
-        // Показываем сообщение о завершении
         var dialog = new Window()
         {
             Title = "Сеанс завершен",
@@ -158,8 +156,6 @@ public partial class PeopleWindow : Window
         };
 
         await dialog.ShowDialog(this);
-
-        // Закрываем окно и блокируем систему
         CloseWindowAndBlockSystem();
     }
 
@@ -171,8 +167,7 @@ public partial class PeopleWindow : Window
             var sessionEndRecord = new LoginHistory
             {
                 LoginTime = _sessionStartTime,
-                LogoutTime = DateTime.Now,
-                Employee = context.Employees.FirstOrDefault(e => e.Login == _fio), // Предполагая, что FIO это логин
+                Employee = context.Employees.FirstOrDefault(e => e.Login == _fio),
                 LoginType = "Автоматическое завершение по таймеру"
             };
             context.LoginHistories.Add(sessionEndRecord);
@@ -180,53 +175,52 @@ public partial class PeopleWindow : Window
         }
         catch (Exception ex)
         {
-            // Логируем ошибку, но не прерываем процесс
             System.Diagnostics.Debug.WriteLine($"Ошибка сохранения информации о сеансе: {ex.Message}");
         }
     }
 
     private void CloseWindowAndBlockSystem()
     {
-        // Сохраняем время блокировки в настройках приложения
         var blockUntil = DateTime.Now.AddMinutes(BLOCK_TIME_MINUTES);
-        // Здесь можно сохранить в базу данных, файл или настройки приложения
         SaveBlockTime(blockUntil);
-
-        // Закрываем окно
         Close();
     }
 
     private void SaveBlockTime(DateTime blockUntil)
     {
-        // Пример сохранения времени блокировки
-        // В реальном приложении используйте базу данных или защищенное хранилище
-        Properties.Settings.Default.BlockUntil = blockUntil;
-        Properties.Settings.Default.Save();
+        try
+        {
+            var settings = new BlockSettings { BlockUntil = blockUntil };
+            var json = JsonSerializer.Serialize(settings);
+            File.WriteAllText("block_settings.json", json);
+        }
+        catch (Exception ex)
+        {
+            System.Diagnostics.Debug.WriteLine($"Ошибка сохранения времени блокировки: {ex.Message}");
+        }
     }
 
-    private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+    protected override void OnClosing(WindowClosingEventArgs e)
     {
-        // Останавливаем таймер при закрытии окна
         _sessionTimer?.Dispose();
+        base.OnClosing(e);
     }
-
 
     private void LoadData()
     {
         using var context = new DanyaContext();
         _enters = context.LoginHistories
             .Select(s => new Enters
-        {
-            Time = s.LoginTime,
-            UserLogin = s.Employee.Login,
-            LoginType = s.LoginType
-
-        }).ToList();
+            {
+                Time = s.LoginTime,
+                UserLogin = s.Employee.Login,
+                LoginType = s.LoginType
+            }).ToList();
 
         EnterBox.ItemsSource = _enters;
     }
 
-    private void Sort_ComboBox_Login(object sender, EventArgs e)
+    private void Sort_ComboBox_Login(object sender, SelectionChangedEventArgs e)
     {
         var sorted = _enters.ToList();
 
@@ -244,10 +238,9 @@ public partial class PeopleWindow : Window
         }
 
         EnterBox.ItemsSource = sorted;
-
     }
 
-    private void Sort_ComboBox_Date(object sender, EventArgs e)
+    private void Sort_ComboBox_Date(object sender, SelectionChangedEventArgs e)
     {
         var sorted = _enters.ToList();
 
@@ -259,13 +252,11 @@ public partial class PeopleWindow : Window
             case 1:
                 sorted = _enters.OrderByDescending(s => s.Time).ToList();
                 break;
-                case 2:
+            case 2:
                 sorted = _enters.ToList();
                 break;
         }
 
         EnterBox.ItemsSource = sorted;
-
     }
-
 }

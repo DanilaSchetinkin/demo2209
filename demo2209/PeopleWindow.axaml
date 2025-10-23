@@ -20,10 +20,10 @@
           <RowDefinition Height="*"/>
       </Grid.RowDefinitions>
       
-      <!-- Таймер сеанса -->
+      
       <StackPanel Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10">
           <TextBlock x:Name="SessionTimerText" Text="Время сеанса: 10:00" FontWeight="Bold" Foreground="Green"/>
-          <TextBlock x:Name="WarningText" Text="" Foreground="Red" FontWeight="Bold" Visibility="Collapsed"/>
+          <TextBlock x:Name="WarningText" Text="" Foreground="Red" FontWeight="Bold" IsVisible="False"/>
       </StackPanel>
      
       <StackPanel Grid.Column="2" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">
