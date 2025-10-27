@@ -6,6 +6,7 @@ using Avalonia.Threading;
 using demo2209.Models;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
@@ -59,6 +60,8 @@ public partial class PeopleWindow : Window
         fioBox.Text = _fio;
         roleBox.Text = _role;
 
+        SetupInterFaceByRole();
+
         LoadData();
 
         LoginComboBox.SelectionChanged += Sort_ComboBox_Login;
@@ -66,6 +69,23 @@ public partial class PeopleWindow : Window
 
         SessionTimer();
     }
+
+    private void SetupInterFaceByRole()
+    {
+        if (_role == "Администратор")
+        {
+            AdminPanel.IsVisible = true;
+            FilterAdmin.IsVisible = true;
+            ComboAdmin.IsVisible = true;
+        }
+        else
+        {
+            AdminPanel.IsVisible = false;
+            FilterAdmin.IsVisible = false;
+            ComboAdmin.IsVisible = false;
+        }
+    }
+
 
     private void SessionTimer()
     {
@@ -258,5 +278,17 @@ public partial class PeopleWindow : Window
         }
 
         EnterBox.ItemsSource = sorted;
+    }
+
+    private void LogoutButton_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    {
+        _sessionTimer?.Dispose();
+        var mainWindow = new MainWindow();
+        mainWindow.Show();
+        this.Close();
+    }
+
+    private void CreateOrder_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    {
     }
 }
