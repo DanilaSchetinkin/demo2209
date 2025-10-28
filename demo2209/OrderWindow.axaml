@@ -1,0 +1,24 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="300" d:DesignHeight="450"
+        x:Class="demo2209.OrderWindow"
+        Title="OrderWindow">
+  <Grid ShowGridLines="True">
+	  <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*"/>
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+      </Grid.RowDefinitions>
+
+      <TextBox x:Name="OrderName" Grid.Column="0" Grid.Row="0" Width="200" Height="25" VerticalAlignment="Bottom"></TextBox>
+      <TextBox Grid.Column="0" Grid.Row="1" Width="200" Height="25"></TextBox>
+      <TextBox Grid.Column="0" Grid.Row="2" Width="200" Height="25" VerticalAlignment="Top"></TextBox>
+  </Grid>
+</Window>

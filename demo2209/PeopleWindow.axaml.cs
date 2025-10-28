@@ -290,5 +290,7 @@ public partial class PeopleWindow : Window
 
     private void CreateOrder_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
+        var orderWindow = new OrderWindow();
+        orderWindow.Show();
     }
 }
