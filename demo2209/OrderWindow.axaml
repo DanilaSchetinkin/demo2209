@@ -4,7 +4,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="600"
         x:Class="demo2209.OrderWindow"
-        Title="Ôîðìèðîâàíèå çàêàçà">
+        Title="Ð¤Ð¾Ñ€Ð¼Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð·Ð°ÐºÐ°Ð·Ð°">
     <Grid Margin="10" ShowGridLines="True">
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
@@ -23,14 +23,14 @@
         </Grid.ColumnDefinitions>
 
         
-        <TextBlock Grid.Row="0" Grid.Column="0" Text="Íîìåð çàêàçà:" 
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="ÐÐ¾Ð¼ÐµÑ€ Ð·Ð°ÐºÐ°Ð·Ð°:" 
                    VerticalAlignment="Center" />
         <TextBox x:Name="OrderNumberTextBox" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" 
                  Width="200" Height="25" VerticalAlignment="Center" 
                  />
 
         
-        <TextBlock Grid.Row="1" Grid.Column="0" Text="Êëèåíò:" 
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="ÐšÐ»Ð¸ÐµÐ½Ñ‚:" 
                    VerticalAlignment="Center"/>
         <Grid Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2">
             <Grid.ColumnDefinitions>
@@ -39,20 +39,17 @@
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
             <ComboBox x:Name="ClientsComboBox" Grid.Column="0"
-                     VerticalAlignment="Center" Height="25"
-                     
-                     >
-            <TextBlock Text="{Binding FioClient}"></TextBlock>
+                     VerticalAlignment="Center" Height="25">
+				
             
             </ComboBox>
-            <Button Grid.Column="1" Grid.ColumnSpan="" Content="Ïîèñê" 
-                    Width="60" Height="30"  Click="SearchClient_Click"/>
-            <Button Grid.Column="2" Content="Äîáàâèòü" 
+         
+            <Button Grid.Column="2" Content="Ð”Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ" 
                     Width="90" Height="30"  Click="AddClient_Click"/>
         </Grid>
 
         
-        <TextBlock Grid.Row="2" Grid.Column="0" Text="Óñëóãè:" 
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Ð£ÑÐ»ÑƒÐ³Ð¸:" 
                    VerticalAlignment="Top" />
         <StackPanel x:Name="ServicesPanel" Grid.Row="2" Grid.Column="1" 
                     >
@@ -69,27 +66,27 @@
         </StackPanel>
 
         
-        <TextBlock Grid.Row="3" Grid.Column="0" Text="Äîáàâëåííûå óñëóãè:" 
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Ð”Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð½Ñ‹Ðµ ÑƒÑÐ»ÑƒÐ³Ð¸:" 
                    VerticalAlignment="Top" />
         <ListBox x:Name="SelectedServicesListBox" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" 
                   Height="150"/>
 
         
-        <TextBlock Grid.Row="4" Grid.Column="0" Text="Îáùàÿ ñòîèìîñòü:" 
+        <TextBlock Grid.Row="4" Grid.Column="0" Text="ÐžÐ±Ñ‰Ð°Ñ ÑÑ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚ÑŒ:" 
                    VerticalAlignment="Center" />
         <TextBlock x:Name="TotalCostTextBlock" Grid.Row="4" Grid.Column="1" 
-                   Text="0 ðóá." VerticalAlignment="Center" 
+                   Text="0 Ñ€ÑƒÐ±." VerticalAlignment="Center" 
                    FontWeight="Bold"/>
         <StackPanel Height="10" Grid.Row="4" Grid.Column="1" ></StackPanel>
 
         
         <StackPanel Grid.Row="5" Grid.Column="1" Orientation="Horizontal" 
                     HorizontalAlignment="Right" >
-            <Button Content="Ïðîñìîòð êëèåíòîâ" 
+            <Button Content="ÐŸÑ€Ð¾ÑÐ¼Ð¾Ñ‚Ñ€ ÐºÐ»Ð¸ÐµÐ½Ñ‚Ð¾Ð²" 
                     Width="160" Height="30" Click="ViewClients_Click"/>
-            <Button Content="Ñîõðàíèòü â PDF" 
+            <Button Content="Ð¡Ð¾Ñ…Ñ€Ð°Ð½Ð¸Ñ‚ÑŒ Ð² PDF" 
                     Width="140" Height="30" Click="SaveToPdf_Click"/>
-            <Button Content="Ñîõðàíèòü çàêàç" 
+            <Button Content="Ð¡Ð¾Ñ…Ñ€Ð°Ð½Ð¸Ñ‚ÑŒ Ð·Ð°ÐºÐ°Ð·" 
                     Width="160" Height="30" Click="SaveOrder_Click"/>
         </StackPanel>
     </Grid>

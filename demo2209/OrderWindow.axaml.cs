@@ -29,16 +29,16 @@ public partial class OrderWindow : Window
     {
         using var context = new DanyaContext();
 
-        _clients = context.Clients.Select(c => new Client
-        {
-          FioClient = c.Fio,
-        }).ToList();
-        ClientsComboBox.ItemsSource = _clients;
+        //_clients = context.Clients.Select(c => new Client
+        //{
+        //  FioClient = c.Fio,
+        //}).ToList();
+        //ClientsComboBox.ItemsSource = _clients;
+        ClientsComboBox.ItemsSource = context.Clients.Select(e => e.Fio).ToList();
+        ServiceComboBox.ItemsSource = context.Services.Select(c => c.ServiceName).ToList();
 
-        if (_clients.Any())
-        {
-            ClientsComboBox.SelectedIndex = 0;
-        }
+        int orderCount = context.Orders.Count()+1;
+        OrderNumberTextBox.Text = orderCount.ToString();
 
     }
 
@@ -48,6 +48,9 @@ public partial class OrderWindow : Window
 
     private void AddClient_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
+        var Client = new AddClient();
+        Client.Show();
+        this.Close();
     }
 
     private void AddService_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
