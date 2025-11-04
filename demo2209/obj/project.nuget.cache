@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2fTvTX5jCag=",
+  "dgSpecHash": "z8K9fMRlbT0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\DANILA\\Source\\Repos\\danyssss\\demo2209\\demo2209.csproj",
+  "projectFilePath": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\demo2209.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DANILA\\.nuget\\packages\\avalonia\\11.3.0\\avalonia.11.3.0.nupkg.sha512",
     "C:\\Users\\DANILA\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.22045.20230930\\avalonia.angle.windows.natives.2.1.22045.20230930.nupkg.sha512",
