@@ -1,69 +1,73 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\demo2209\\",
+  "WorkspaceRootPath": "C:\\Users\\DANILA\\source\\repos\\danyssss\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\admin\\source\\repos\\demo2209\\demo2209\\addclient.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\addclient.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\admin\\source\\repos\\demo2209\\demo2209\\orderwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\orderwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\admin\\source\\repos\\demo2209\\demo2209\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\admin\\source\\repos\\demo2209\\demo2209\\orderwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\danyssss\\demo2209\\orderwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\orderwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\admin\\source\\repos\\demo2209\\demo2209\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\danyssss\\demo2209\\orderwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\orderwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\admin\\source\\repos\\demo2209\\demo2209\\addclient.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\addclient.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\admin\\source\\repos\\demo2209\\demo2209\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\admin\\source\\repos\\demo2209\\demo2209\\peoplewindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\peoplewindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\admin\\source\\repos\\demo2209\\demo2209\\peoplewindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\danyssss\\demo2209\\peoplewindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\peoplewindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\admin\\source\\repos\\demo2209\\demo2209\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\danyssss\\demo2209\\peoplewindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\peoplewindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\admin\\source\\repos\\demo2209\\demo2209\\demo2209.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\danyssss\\demo2209\\addclient.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\addclient.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\danyssss\\demo2209\\addclient.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\addclient.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\danyssss\\demo2209\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\danyssss\\demo2209\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\danyssss\\demo2209\\demo2209.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\demo2209.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\admin\\source\\repos\\demo2209\\demo2209\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\danyssss\\demo2209\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\danyssss\\demo2209\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\danyssss\\demo2209\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\danyssss\\demo2209\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\admin\\source\\repos\\demo2209\\demo2209\\models\\loginhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\danyssss\\demo2209\\models\\loginhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\models\\loginhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\admin\\source\\repos\\demo2209\\demo2209\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\danyssss\\demo2209\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\admin\\source\\repos\\demo2209\\demo2209\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\danyssss\\demo2209\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\admin\\source\\repos\\demo2209\\demo2209\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "AbsoluteMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|c:\\users\\danila\\source\\repos\\danyssss\\demo2209\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{CB098780-BCDA-47DB-A1AE-CF8E0D94FAA6}|demo2209\\demo2209.csproj|solutionrelative:demo2209\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     }
   ],
@@ -74,8 +78,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 363,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{73068c07-fba1-453f-99ae-6edf972119b2}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -102,10 +110,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{73068c07-fba1-453f-99ae-6edf972119b2}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
@@ -114,26 +118,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\MainWindow.axaml.cs",
-              "RelativeDocumentMoniker": "demo2209\\MainWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\MainWindow.axaml.cs",
-              "RelativeToolTip": "demo2209\\MainWindow.axaml.cs",
-              "ViewState": "AgIAAL4AAAAAAAAAAADwv9gAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T09:47:18.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "AddClient.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\AddClient.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\AddClient.axaml.cs",
               "RelativeDocumentMoniker": "demo2209\\AddClient.axaml.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\AddClient.axaml.cs*",
-              "RelativeToolTip": "demo2209\\AddClient.axaml.cs*",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwCoAAAAZAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\AddClient.axaml.cs",
+              "RelativeToolTip": "demo2209\\AddClient.axaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowCoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T12:58:25.071Z",
               "EditorCaption": ""
@@ -142,46 +133,22 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "OrderWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\OrderWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\OrderWindow.axaml.cs",
               "RelativeDocumentMoniker": "demo2209\\OrderWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\OrderWindow.axaml.cs*",
-              "RelativeToolTip": "demo2209\\OrderWindow.axaml.cs*",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwDQAAAAVAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\OrderWindow.axaml.cs",
+              "RelativeToolTip": "demo2209\\OrderWindow.axaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwEoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T12:37:42.774Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddClient.axaml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\AddClient.axaml",
-              "RelativeDocumentMoniker": "demo2209\\AddClient.axaml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\AddClient.axaml",
-              "RelativeToolTip": "demo2209\\AddClient.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-04T12:58:25.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\MainWindow.axaml",
-              "RelativeDocumentMoniker": "demo2209\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\MainWindow.axaml",
-              "RelativeToolTip": "demo2209\\MainWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-08T14:12:51.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "OrderWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\OrderWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\OrderWindow.axaml",
               "RelativeDocumentMoniker": "demo2209\\OrderWindow.axaml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\OrderWindow.axaml",
+              "ToolTip": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\OrderWindow.axaml",
               "RelativeToolTip": "demo2209\\OrderWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-28T12:37:42.878Z",
@@ -189,24 +156,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\Models\\Client.cs",
-              "RelativeDocumentMoniker": "demo2209\\Models\\Client.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\Models\\Client.cs",
-              "RelativeToolTip": "demo2209\\Models\\Client.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAkAAAASAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PeopleWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\PeopleWindow.axaml.cs",
+              "RelativeDocumentMoniker": "demo2209\\PeopleWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\PeopleWindow.axaml.cs",
+              "RelativeToolTip": "demo2209\\PeopleWindow.axaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAIAwwCsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T11:22:27.74Z",
+              "WhenOpened": "2025-10-22T10:38:26.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "PeopleWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\PeopleWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\PeopleWindow.axaml",
               "RelativeDocumentMoniker": "demo2209\\PeopleWindow.axaml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\PeopleWindow.axaml",
+              "ToolTip": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\PeopleWindow.axaml",
               "RelativeToolTip": "demo2209\\PeopleWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-13T09:33:17.102Z",
@@ -214,11 +181,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddClient.axaml",
+              "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\AddClient.axaml",
+              "RelativeDocumentMoniker": "demo2209\\AddClient.axaml",
+              "ToolTip": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\AddClient.axaml",
+              "RelativeToolTip": "demo2209\\AddClient.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-04T12:58:25.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "demo2209\\Models\\Service.cs",
+              "ToolTip": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\Models\\Service.cs",
+              "RelativeToolTip": "demo2209\\Models\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T18:41:21.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "demo2209\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\MainWindow.axaml",
+              "RelativeToolTip": "demo2209\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-08T14:12:51.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "demo2209\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\MainWindow.axaml.cs",
+              "RelativeToolTip": "demo2209\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAADwv9gAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T09:47:18.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "demo2209\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\Models\\Client.cs",
+              "RelativeToolTip": "demo2209\\Models\\Client.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T11:22:27.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\Models\\Employee.cs",
+              "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "demo2209\\Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\Models\\Employee.cs",
               "RelativeToolTip": "demo2209\\Models\\Employee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -227,22 +255,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "PeopleWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\PeopleWindow.axaml.cs",
-              "RelativeDocumentMoniker": "demo2209\\PeopleWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\PeopleWindow.axaml.cs",
-              "RelativeToolTip": "demo2209\\PeopleWindow.axaml.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAiwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T10:38:26.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "demo2209.csproj",
-              "DocumentMoniker": "C:\\Users\\Admin\\Source\\Repos\\demo2209\\demo2209\\demo2209.csproj",
+              "DocumentMoniker": "C:\\Users\\DANILA\\Source\\Repos\\danyssss\\demo2209\\demo2209.csproj",
               "RelativeDocumentMoniker": "demo2209\\demo2209.csproj",
-              "ToolTip": "C:\\Users\\Admin\\Source\\Repos\\demo2209\\demo2209\\demo2209.csproj",
+              "ToolTip": "C:\\Users\\DANILA\\Source\\Repos\\danyssss\\demo2209\\demo2209.csproj",
               "RelativeToolTip": "demo2209\\demo2209.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -251,11 +267,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\Models\\Order.cs",
+              "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\Models\\Order.cs",
               "RelativeDocumentMoniker": "demo2209\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\Models\\Order.cs",
               "RelativeToolTip": "demo2209\\Models\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -263,11 +279,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "LoginHistory.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\Models\\LoginHistory.cs",
+              "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\Models\\LoginHistory.cs",
               "RelativeDocumentMoniker": "demo2209\\Models\\LoginHistory.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\Models\\LoginHistory.cs",
+              "ToolTip": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\Models\\LoginHistory.cs",
               "RelativeToolTip": "demo2209\\Models\\LoginHistory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -275,11 +291,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\Models\\Role.cs",
+              "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\Models\\Role.cs",
               "RelativeDocumentMoniker": "demo2209\\Models\\Role.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\Models\\Role.cs",
               "RelativeToolTip": "demo2209\\Models\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -287,11 +303,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\Program.cs",
               "RelativeDocumentMoniker": "demo2209\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\Program.cs",
+              "ToolTip": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\Program.cs",
               "RelativeToolTip": "demo2209\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -299,14 +315,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "App.axaml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\App.axaml",
+              "DocumentMoniker": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\App.axaml",
               "RelativeDocumentMoniker": "demo2209\\App.axaml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\demo2209\\demo2209\\App.axaml",
+              "ToolTip": "C:\\Users\\DANILA\\source\\repos\\danyssss\\demo2209\\App.axaml",
               "RelativeToolTip": "demo2209\\App.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-14T10:36:49.714Z"
+              "WhenOpened": "2025-10-14T10:36:49.714Z",
+              "EditorCaption": ""
             }
           ]
         },

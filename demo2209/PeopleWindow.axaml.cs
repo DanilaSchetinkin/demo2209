@@ -77,12 +77,14 @@ public partial class PeopleWindow : Window
             AdminPanel.IsVisible = true;
             FilterAdmin.IsVisible = true;
             ComboAdmin.IsVisible = true;
+            CreateOrder.IsVisible = false;
         }
         else
         {
             AdminPanel.IsVisible = false;
             FilterAdmin.IsVisible = false;
             ComboAdmin.IsVisible = false;
+            CreateOrder.IsVisible = true;
         }
     }
 

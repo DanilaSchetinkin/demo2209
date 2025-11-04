@@ -30,14 +30,14 @@
           <Image x:Name="imageBox" Width="75" Height="100"/>
           <TextBlock x:Name="fioBox" />
           <TextBlock x:Name="roleBox" />
-          <Button x:Name="LogoutButton" Click="LogoutButton_Click" Content="Выйти"></Button>
+          <Button x:Name="LogoutButton" Click="LogoutButton_Click" Content="Exit"></Button>
       </StackPanel>
       
 
       <!-- Админ -->
       <StackPanel Grid.Column="0" Grid.Row="0" x:Name="AdminPanel">
           <StackPanel Height="20"></StackPanel>
-          <TextBlock Text="История входов" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+          <TextBlock Text="Enter History" HorizontalAlignment="Center" VerticalAlignment="Top"/>
           <ScrollViewer VerticalScrollBarVisibility="Auto" Height="600" >
           <ListBox x:Name="EnterBox">
               <ListBox.ItemTemplate>
@@ -57,14 +57,14 @@
 
       <StackPanel Grid.Column="1" Grid.Row="0" Grid.RowSpan="1" x:Name="FilterAdmin">
           <StackPanel Height="20"></StackPanel>
-          <TextBlock Text="Фильтры" HorizontalAlignment="Center"></TextBlock>
+          <TextBlock Text="Filters" HorizontalAlignment="Center"></TextBlock>
       </StackPanel>
       
      <StackPanel Grid.Column="1" Grid.Row="1" x:Name="ComboAdmin">
          <TextBlock Text="Сортировки: " Grid.Column="1" VerticalAlignment="Bottom" Grid.Row="0"></TextBlock>
          <StackPanel>
-             <TextBlock Text="Логин"></TextBlock>
-             <TextBlock Text="По дате"></TextBlock>
+             <TextBlock Text="Login"></TextBlock>
+             <TextBlock Text="Date"></TextBlock>
          </StackPanel>
          <ComboBox x:Name="LoginComboBox">
              <ComboBoxItem>По увелечению</ComboBoxItem>
@@ -81,7 +81,7 @@
       <!-- Продавец -->
       <StackPanel x:Name="CustomerPanel" Grid.Column="0" Grid.Row="0" >
           <StackPanel Height="25"></StackPanel>
-      <Button  HorizontalAlignment="Center" x:Name="CreateOrder" Click="CreateOrder_Click" Content="Создать заказ"></Button>
+      <Button  HorizontalAlignment="Center" x:Name="CreateOrder" Click="CreateOrder_Click" Content="Create order"></Button>
 </StackPanel>
   </Grid>
 </Window>

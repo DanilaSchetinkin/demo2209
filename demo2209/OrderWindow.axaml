@@ -19,17 +19,15 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="Auto"/>
-            
         </Grid.ColumnDefinitions>
 
-        
+        <!-- Номер заказа -->
         <TextBlock Grid.Row="0" Grid.Column="0" Text="Номер заказа:" 
                    VerticalAlignment="Center" />
         <TextBox x:Name="OrderNumberTextBox" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" 
-                 Width="200" Height="25" VerticalAlignment="Center" 
-                 />
+                 Width="200" Height="25" VerticalAlignment="Center" />
 
-        
+        <!-- Клиент -->
         <TextBlock Grid.Row="1" Grid.Column="0" Text="Клиент:" 
                    VerticalAlignment="Center"/>
         <Grid Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2">
@@ -39,20 +37,15 @@
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
             <ComboBox x:Name="ClientsComboBox" Grid.Column="0"
-                     VerticalAlignment="Center" Height="25">
-				
-            
-            </ComboBox>
-         
+                     VerticalAlignment="Center" Height="25"/>
             <Button Grid.Column="2" Content="Добавить" 
                     Width="90" Height="30"  Click="AddClient_Click"/>
         </Grid>
 
-        
+        <!-- Услуги -->
         <TextBlock Grid.Row="2" Grid.Column="0" Text="Услуги:" 
                    VerticalAlignment="Top" />
-        <StackPanel x:Name="ServicesPanel" Grid.Row="2" Grid.Column="1" 
-                    >
+        <StackPanel x:Name="ServicesPanel" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
@@ -65,22 +58,32 @@
             </Grid>
         </StackPanel>
 
-        
+        <!-- Добавленные услуги -->
         <TextBlock Grid.Row="3" Grid.Column="0" Text="Добавленные услуги:" 
                    VerticalAlignment="Top" />
         <ListBox x:Name="SelectedServicesListBox" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" 
-                  Height="150"/>
+                 Height="150">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    
+					    <StackPanel>
+							
+                        </StackPanel>	
+                    
+                    
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
 
-        
+        <!-- Общая стоимость -->
         <TextBlock Grid.Row="4" Grid.Column="0" Text="Общая стоимость:" 
                    VerticalAlignment="Center" />
         <TextBlock x:Name="TotalCostTextBlock" Grid.Row="4" Grid.Column="1" 
                    Text="0 руб." VerticalAlignment="Center" 
                    FontWeight="Bold"/>
-        <StackPanel Height="10" Grid.Row="4" Grid.Column="1" ></StackPanel>
 
-        
-        <StackPanel Grid.Row="5" Grid.Column="1" Orientation="Horizontal" 
+        <!-- Кнопки -->
+        <StackPanel Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Orientation="Horizontal" 
                     HorizontalAlignment="Right" >
             <Button Content="Просмотр клиентов" 
                     Width="160" Height="30" Click="ViewClients_Click"/>
