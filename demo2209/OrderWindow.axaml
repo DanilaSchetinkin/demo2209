@@ -4,6 +4,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="600"
         x:Class="demo2209.OrderWindow"
+		x:CompileBindings="False"
         Title="Формирование заказа">
     <Grid Margin="10" ShowGridLines="True">
         <Grid.RowDefinitions>
@@ -24,9 +25,13 @@
         <!-- Номер заказа -->
         <TextBlock Grid.Row="0" Grid.Column="0" Text="Номер заказа:" 
                    VerticalAlignment="Center" />
-        <TextBox x:Name="OrderNumberTextBox" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" 
-                 Width="200" Height="25" VerticalAlignment="Center" />
-
+        <TextBox x:Name="OrderNumberTextBox" Grid.Row="0" Grid.Column="1"  
+                 Width="100" Height="25" VerticalAlignment="Center" HorizontalAlignment="Left" />
+		<TextBlock Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Text="Номер заказа:"
+                   VerticalAlignment="Center" HorizontalAlignment="Center" />
+		<TextBox x:Name="OrderTimeTextBox" Grid.Row="0" Grid.Column="2"
+                 Width="100" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center" />
+		
         <!-- Клиент -->
         <TextBlock Grid.Row="1" Grid.Column="0" Text="Клиент:" 
                    VerticalAlignment="Center"/>
@@ -67,7 +72,7 @@
                 <DataTemplate>
                     
 					    <StackPanel>
-							
+							<TextBlock Text="{Binding ServiceName}"></TextBlock>
                         </StackPanel>	
                     
                     

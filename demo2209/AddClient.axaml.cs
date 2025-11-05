@@ -9,6 +9,7 @@ namespace demo2209;
 
 public partial class AddClient : Window
 {
+    private int _id;
     public AddClient()
     {
         InitializeComponent();

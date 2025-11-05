@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\demo2209.csproj": {}
+    "C:\\Users\\demo\\Source\\Repos\\demo2209\\demo2209\\demo2209.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\demo2209.csproj": {
+    "C:\\Users\\demo\\Source\\Repos\\demo2209\\demo2209\\demo2209.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\demo2209.csproj",
+        "projectUniqueName": "C:\\Users\\demo\\Source\\Repos\\demo2209\\demo2209\\demo2209.csproj",
         "projectName": "demo2209",
-        "projectPath": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\demo2209.csproj",
-        "packagesPath": "C:\\Users\\DANILA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DANILA\\source\\repos\\demo2209\\demo2209\\obj\\",
+        "projectPath": "C:\\Users\\demo\\Source\\Repos\\demo2209\\demo2209\\demo2209.csproj",
+        "packagesPath": "C:\\Users\\demo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\demo\\Source\\Repos\\demo2209\\demo2209\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DANILA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\demo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -101,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

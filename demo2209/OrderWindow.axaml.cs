@@ -12,14 +12,17 @@ namespace demo2209;
 
 public partial class OrderWindow : Window
 {
-
+    
     private List<Service> _allServices;
     private ObservableCollection<SelectedService> _selectedServices;
+
+     
 
     public class SelectedService
     {
         public string ServiceName { get; set; }
         public string ServiceCost { get; set; }
+        public int ServiceId { get; set; }
     }
 
     public OrderWindow()
@@ -78,9 +81,9 @@ public partial class OrderWindow : Window
 
                 // Добавляем в коллекцию
                 _selectedServices.Add(newSelectedService);
-
+                SelectedServicesListBox.ItemsSource = new ObservableCollection<SelectedService>(_selectedServices);
                 // Обновляем общую стоимость
-               
+
             }
         }
     }
@@ -104,5 +107,35 @@ public partial class OrderWindow : Window
 
     private void SaveOrder_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
+        using var context = new DanyaContext();
+        var order = new Order()
+        {
+            Id = context.Orders.OrderBy(o => o.Id).LastOrDefault().Id + 1,
+            CodeOrder = OrderNumberTextBox.Text,
+            DateCreate = DateTime.Now,
+            TimeOrder = OrderNumberTextBox.Text,
+            CodeClient = int.Parse(OrderNumberTextBox.Text),
+            Status = "Новая",
+            DateClose = null,
+            TimeRental = "60 Минут",
+            EmployeeId = Class1.idUser 
+        };
+
+        context.Orders.Add(order);
+        context.SaveChanges();
+
+        foreach (var item in _selectedServices)
+        {
+           
+            var service = new Service()
+            {
+                Id = context.Orders.OrderBy(o => o.Id).LastOrDefault().Id + 1,
+                ServiceId = context.Services.OrderBy(x => x.ServiceId).LastOrDefault().ServiceId + 1
+            };
+
+            order.Idservices.Add(service);
+            context.SaveChanges();
+        }
+
     }
 }

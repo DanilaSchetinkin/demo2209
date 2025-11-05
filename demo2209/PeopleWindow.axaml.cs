@@ -16,6 +16,7 @@ namespace demo2209;
 
 public partial class PeopleWindow : Window
 {
+    public int _id;
     private string _fio;
     private string _role;
     private Bitmap? _image;
@@ -48,13 +49,14 @@ public partial class PeopleWindow : Window
         InitializeComponent();
     }
 
-    public PeopleWindow(string fio, string role, Bitmap? image)
+    public PeopleWindow(string fio, string role, Bitmap? image, int employeeId)
     {
         InitializeComponent();
 
         _fio = fio;
         _role = role;
         _image = image;
+        _id = employeeId;
 
         imageBox.Source = _image;
         fioBox.Text = _fio;

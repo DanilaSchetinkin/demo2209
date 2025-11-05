@@ -206,8 +206,8 @@ namespace demo2209
             context.LoginHistories.Add(newTime);
             context.SaveChanges();
 
-
-            var People = new PeopleWindow(user.Fio,roleName, user.Image);
+            Class1.idUser = user.Id;
+            var People = new PeopleWindow(user.Fio,roleName, user.Image, user.Id );
             People.Show();
             this.Close();
         }
